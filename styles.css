@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+}
+  
+body {
+    display: flex;
+    justify-content: center;     /*para que os itens vão para o meio da pagina mas ficam em cima e não no meio*/
+    align-items: center;         /* para que os itens fiquem no meio da pagina*/ 
+    background-color: #122112;   /* para que toda a parte exterior fique de uma só cor*/
+    height: 100vh;          /*para que todo comprimento ocupe todos os espaços*/
+}
+
+.conteiner {
+    width: 375px;                      /*Para não ocupar a tela toda, teve que diminuir*/
+    background-color: #f4f4f4;
+   
+   
+}
+
+header {
+    background-color: #0b9a50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 66px;                         /* altura do topo do projeto, a parte azul*/
+}
+
+h1 {
+    font-size: 24px;
+    color: #F4F4F4;
+}
+
+main {
+    padding: 24px;
+    
+}
+
+label {
+    font-size: 14px;
+    color: #777777;
+    
+}
+
+select {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;  /*para a janelinha ficar mais arredondada*/ 
+    height: 48px;
+    display: block;  /* para ficar todos em baixo do outro*/
+    width: 100%; /* para ocupar toda a tela 100% */
+    cursor: pointer; /*para colocar a seta do mouse como maozinha */
+    outline: none;  /*para tirar a borda azul*/
+    appearance: none; /* para tirar a setinha q tinha dentro do select*/
+    padding-left: 16px; /* espaçamento interno para afastar da parede*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15); /* a sombra que tem em volta do select*/
+    margin-top: 6px;
+    margin-bottom: 23px;
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;  
+    height: 48px;
+    display: block; 
+    width: 100%;
+    outline: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    font-size: 18px;
+}
+
+button {
+    background: #0b9a50;
+    border-radius: 25px;
+    height: 48px;
+    cursor: pointer;
+    color: #F4F4F4;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 36px;
+}
+
+button:hover {
+    opacity: 0.9;   /* para dar a impressão que está passando o mouse por cima, fica mais claro*/
+}
+
+button:active {
+    opacity: 0.7;    /* para dar a impressão que está clicando no botão, fica mais claro, se deixar no 0 ficar totalmente transparente*/
+}
+
+section {
+    border: 1px solid #0b9a50;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px   /* espaçamento entre itens*/
+}
+
+.section-conteiner {
+   
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.real-name {
+    font-size: 14px;
+    color: #777777;
+    padding-top: 4px;
+
+}
+
+.value-name {
+    color: #0b9a50;
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/cifrao1.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <title>DevClub Convert Money</title>
+</head>
+
+<body>
+    <div class="conteiner">
+        <header>
+            <h1>Conversor de Moedas</h1>
+        </header>
+        <main>
+            <label>
+                Converter <b>de</b>
+                <select>
+                    <option>
+                        R$ Real brasileiro
+                    </option>
+                    
+                    
+                </select>
+            </label>
+
+            <label>
+                Converter <b>para</b>
+                <select id="currency-select">
+                    <option>₿ Bitcoin </option>
+
+                    <option>U$ Dólar americano</option>
+
+                    <option>€ Euro </option>
+
+                    <option>¥ Iene </option>
+
+                    <option>£ Libra </option>
+
+                    <option>$ Peso mexicano </option>
+                </select>
+            </label>
+
+            <label>
+                Valor
+                <input id="input-real" placeholder="R$10.000,00">
+            </label>
+
+            <button id="convert-button" type="button">Converter</button>
+
+            <section>
+                <div class="section-conteiner">
+                    <img src="/assets/brasil.png" alt="Bandeira-Brasil" />
+                    <h1 class="real-name">Real</h1>
+                    <p class="value-name" id="real-value">R$ 10.000,00</p>
+                </div>
+
+                <img class="arrow-img" src="./Assets/Vector.png" alt="seta" />
+
+                <div class="section-conteiner">
+                    <img src="./Assets/bitcoin.png" id="currency-img" alt="Bandeira-Estados-Unidos" />
+                    <h1 class="real-name" id="real-name" >₿ Bitcoin</h1>
+                    <p class="value-name" id="value-name">₿ 2.000,00</p>
+                </div>
+
+            </section>
+
+
+        </main>
+
+
+    </div>
+</body>
+
+<script src="/script.js"></script>
+
+</html>
