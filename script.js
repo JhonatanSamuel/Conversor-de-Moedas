@@ -74,33 +74,33 @@ changeCurrency = () => {   // function criada para mudar de dolar para euro
   
   if(select.value === '₿ Bitcoin') {  //para trocar a informação o texto quando mudar.//
     currencyName.innerHTML = "Bitcoin" //quando for converter para dolar, deixar dolar americano, quando for euro, deixar euro//
-    currencyImg.src = "./assets/bitcoin.png" // trocar a imagem de dolar para euro//
+    currencyImg.src = "/assets/bitcoin.png" // trocar a imagem de dolar para euro//
   }
 
   if(select.value === 'U$ Dólar americano' ) {    //para trocar a informação o texto quando mudar.//
     currencyName.innerHTML = "Dólar americano"    //quando for converter para dolar, deixar dolar americano, quando for euro, deixar euro//
-    currencyImg.src = "./assets/eua.png"           // trocar a imagem de dolar para euro//
+    currencyImg.src = "/assets/eua.png"           // trocar a imagem de dolar para euro//
   }
 
   if(select.value === '€ Euro') {  //para trocar a informação o texto quando mudar.//
     currencyName.innerHTML = "Euro" //quando for converter para dolar, deixar dolar americano, quando for euro, deixar euro//
-    currencyImg.src = "./assets/euro.png" // trocar a imagem de dolar para euro//
+    currencyImg.src = "/assets/euro.png" // trocar a imagem de dolar para euro//
   }
 
 
   if(select.value === '¥ Iene') {  //para trocar a informação o texto quando mudar.//
     currencyName.innerHTML = "Iene" //quando for converter para dolar, deixar dolar americano, quando for euro, deixar euro//
-    currencyImg.src = "./assets/japao.png" // trocar a imagem de dolar para euro//
+    currencyImg.src = "/assets/japao.png" // trocar a imagem de dolar para euro//
   }
 
   if(select.value === '£ Libra') {  //para trocar a informação o texto quando mudar.//
     currencyName.innerHTML = "Libra" //quando for converter para dolar, deixar dolar americano, quando for euro, deixar euro//
-    currencyImg.src = "./assets/reino-unido.png" // trocar a imagem de dolar para euro//
+    currencyImg.src = "/assets/reino-unido.png" // trocar a imagem de dolar para euro//
   }
 
   if(select.value === '$ Peso mexicano') {  //para trocar a informação o texto quando mudar.//
     currencyName.innerHTML = "Peso" //quando for converter para dolar, deixar dolar americano, quando for euro, deixar euro//
-    currencyImg.src = "./assets/mexico (1).png" // trocar a imagem de dolar para euro//
+    currencyImg.src = "/assets/mexico.png" // trocar a imagem de dolar para euro//
   }
 
  
